@@ -16,11 +16,18 @@ npm install
 
 to run project,
 start mongod service as a background process
+
 brew services start mongodb-community@8.0
+
 test if service is active using 
+
 open 2 terminals, one in the backend, one in the frontend
-for backend, run server using : npx nodemon server.js
-for frontend use npm start
+
+for backend, run server using : 
+npx nodemon server.js
+
+for frontend use 
+npm start
 
 Once started, use the 3 buttons on top to navigate to the different pages,
 
