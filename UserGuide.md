@@ -2,10 +2,15 @@ User Guide for Local usage
 
 Install nodeJS and MongoDB community edition on your local system
 
+
+to install dependencies for the backend
+
 cd backend
 npm install
-to install dependencies for the backend
+
+
 similarly for the frontend
+
 cd frontend
 npm install
 
