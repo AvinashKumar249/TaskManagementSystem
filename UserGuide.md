@@ -57,5 +57,21 @@ TasksPage.js : Corresponds to TaskList.js
 AddTaskPage.js : Corresponds to AddTask.js
 
 
+For tunelling using cloudflared 
+install cloudfared using 
+brew install cloudflare/cloudflare/cloudflared
+
+host both front end and backend using
+cloudflared tunnel --url http://localhost:3000
+cloudflared tunnel --url http://localhost:3001
+
+on port 3000 we will recieve the frontend link in the terminal
+on port 3001 we will recieve the backend link in the terminal
+
+copy the backend link
+open frontend compnonents folder and replace the localhost:3001 links with the backend links
+
+then it is ready to be connected and used on a differnet device.
+
 
 
